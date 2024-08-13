@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        '/': (context) =>  const OnboardingPage(),
+        '/': (context) =>  DetailProdukPage(),
         '/onboarding-page': (context) => const OnboardingPage(),
-        '/detail-produk-page': (context) => const DetailProdukPage(),
+        '/detail-produk-page': (context) => DetailProdukPage(),
       },
     );
   }
